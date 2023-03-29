@@ -101,7 +101,7 @@ deepspeed train.py --train_args_file config/train_args_with_deepspeed_stage0.jso
 
 ### ZeRO Stage 2
 
-模型训练的相关配置参数在 train_args_with_deepspeed_stage2.json 中，ZeRO 配置文件为 ds_stage2_config.json。
+模型训练的相关配置参数在 config/train_args_with_deepspeed_stage2.json 中，ZeRO 配置文件为 config/ds_stage2_config.json。
 
 ```shell
 export CUDA_VISIBLE_DEVICES=0,1
@@ -126,7 +126,7 @@ deepspeed train.py --train_args_file config/train_args_with_deepspeed_stage2.jso
 
 ### ZeRO Stage 3
 
-模型训练的相关配置参数在 train_args_with_deepspeed_stage3.json 中，ZeRO 配置文件为 ds_stage3_config.json。
+模型训练的相关配置参数在 config/train_args_with_deepspeed_stage3.json 中，ZeRO 配置文件为 config/ds_stage3_config.json。
 
 ```shell
 export CUDA_VISIBLE_DEVICES=0,1
