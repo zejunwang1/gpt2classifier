@@ -151,7 +151,7 @@ deepspeed train.py --train_args_file config/train_args_with_deepspeed_stage3.jso
 
 ## 5. 显存比较
 
-设定`per_device_train_batch_size=32`,`per_device_eval_batch_size=32`，不同训练方式的单卡显存占用与训练速度比较如下表所示：
+设定`per_device_train_batch_size=32`,`per_device_eval_batch_size=32`，FP32 模式下不同训练方式的单卡显存占用与训练速度比较如下表所示：
 
 | 训练方式    | 单卡     | DDP    | ZeRO-0 | ZeRO-2 | ZeRO-3 |
 |:-------:|:------:|:------:|:------:|:------:|:------:|
